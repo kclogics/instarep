@@ -21,7 +21,7 @@ const Post = (props) => {
                <div className="footer">
                    <div>1000 views</div>
                      <div>
-                      thecodercoder Hey everyone! It's been a while, 
+                      thekrishnachavali Hey everyone! It's been a while, 
                       but I'm back online. I took a much needed social media 
                       break for a few months, and it was AWESOME. 
                       Highly recommend that for any of you. 
