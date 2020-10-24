@@ -1,8 +1,10 @@
 import React ,{ createRef ,useState } from 'react';
 import Button from '@material-ui/core/Button';
+ 
+import Post from "./components/Post"
 import './App.css';
 import './Stories.css'
-
+ 
 const Item1 = props => {
   const ref = React.useRef(null)  
   React.useEffect(() => {
@@ -185,9 +187,12 @@ document.querySelectorAll('.xaxisContainer').forEach((elem) => {
        </div>  
        <div className="xaxisContainer2" id="block" onMouseDown={onMouseDown} onMouseMove={onMouseMove}>
        <InstaStories />
+   
        </div>
-       <div  className="xaxisContainer1">
+       <div  className="xaxisContainer2">
+       <Post />
        </div>
+      
        </div>
   )
 }
@@ -311,6 +316,7 @@ const InstaStories = () => {
       <div class="item item19"></div>
       <div class="item item20"></div>
       <Button onClick={ScrollSmoothHandler} variant="contained">|--</Button>
+
     </div>
   </main>
   );

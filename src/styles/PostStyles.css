@@ -1,0 +1,20 @@
+.PostContainer {
+  width: 100%;
+  height: 500px;
+  background-color: red;
+}
+.PostContainer .header {
+  width: 100%;
+  height: 20px;
+  color: white;
+}
+.PostContainer .image {
+  height: 250px;
+  background-color: #FFC0CB;
+}
+.PostContainer .footer {
+  height: 100px;
+  background-color: white;
+}
+
+/*# sourceMappingURL=PostStyles.css.map */
